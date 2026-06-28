@@ -199,3 +199,114 @@ section h2{
 }
 
 }
+
+/* Scroll Animation */
+
+.hidden{
+    opacity:0;
+    transform:translateY(50px);
+    transition:1s;
+}
+
+.show{
+    opacity:1;
+    transform:translateY(0);
+}
+
+/* Back To Top */
+
+#topBtn{
+
+position:fixed;
+
+right:25px;
+
+bottom:25px;
+
+width:55px;
+
+height:55px;
+
+border:none;
+
+border-radius:50%;
+
+font-size:22px;
+
+cursor:pointer;
+
+background:#00bfff;
+
+color:white;
+
+display:none;
+
+box-shadow:0 0 20px #00bfff;
+
+z-index:9999;
+
+transition:.3s;
+
+}
+
+#topBtn:hover{
+
+background:#ffd400;
+
+color:#111;
+
+}
+
+/* Particles */
+
+#particles{
+
+position:fixed;
+
+left:0;
+
+top:0;
+
+width:100%;
+
+height:100%;
+
+pointer-events:none;
+
+overflow:hidden;
+
+z-index:-1;
+
+}
+
+.particle{
+
+position:absolute;
+
+width:4px;
+
+height:4px;
+
+background:#00bfff;
+
+border-radius:50%;
+
+animation:float linear infinite;
+
+}
+
+@keyframes float{
+
+from{
+
+transform:translateY(100vh);
+
+}
+
+to{
+
+transform:translateY(-100px);
+
+}
+
+}
