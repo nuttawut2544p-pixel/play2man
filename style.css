@@ -50,16 +50,11 @@ nav a:hover{
 /* Hero */
 
 .hero{
-    height:100vh;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    padding:20px;
-    background:
-        radial-gradient(circle at top,#0f6fff 0%,transparent 35%),
-        radial-gradient(circle at bottom,#ffd40033 0%,transparent 25%),
-        linear-gradient(135deg,#02040a,#08111d,#071b38,#02040a);
+    .hero{
+    background-image:url("images/background.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
 }
 
 .hero-content{
