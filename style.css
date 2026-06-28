@@ -327,3 +327,21 @@ max-width:100%;
 filter:drop-shadow(0 0 30px #00bfff);
 
 }
+    
+.qr{
+
+text-align:center;
+
+padding:80px 20px;
+
+}
+
+.qr img{
+
+width:260px;
+
+border-radius:15px;
+
+box-shadow:0 0 30px #00bfff;
+
+}
