@@ -307,3 +307,23 @@ transform:translateY(-100px);
 height:70px;
 
 }
+    
+.hero{
+
+display:flex;
+
+justify-content:space-around;
+
+align-items:center;
+
+}
+
+.hero-image img{
+
+width:450px;
+
+max-width:100%;
+
+filter:drop-shadow(0 0 30px #00bfff);
+
+}
